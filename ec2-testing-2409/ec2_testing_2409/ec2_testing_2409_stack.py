@@ -5,7 +5,7 @@ from aws_cdk import (
 )
 from constructs import Construct
 
-class 2409Ec2TestingStack(Stack):
+class Ec2Testing2409Stack(Stack):
 
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
@@ -14,6 +14,6 @@ class 2409Ec2TestingStack(Stack):
 
         # example resource
         # queue = sqs.Queue(
-        #     self, "2409Ec2TestingQueue",
+        #     self, "Ec2Testing2409Queue",
         #     visibility_timeout=Duration.seconds(300),
         # )

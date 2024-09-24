@@ -3,11 +3,11 @@ import os
 
 import aws_cdk as cdk
 
-from 2409_ec2_testing.2409_ec2_testing_stack import 2409Ec2TestingStack
+from ec2_testing_2409.ec2_testing_2409_stack import Ec2Testing2409Stack
 
 
 app = cdk.App()
-2409Ec2TestingStack(app, "2409Ec2TestingStack",
+Ec2Testing2409Stack(app, "Ec2Testing2409Stack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.

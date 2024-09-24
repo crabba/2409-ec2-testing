@@ -1,4 +1,4 @@
-#!/Users/crabba/Documents/Projects/2409-ec2-testing/2409-ec2-testing/.venv/bin/python3
+#!/Users/crabba/Documents/Projects/2409-ec2-testing/ec2-testing-2409/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
